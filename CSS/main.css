@@ -64,7 +64,7 @@
     position: absolute;
     display: flex;
     top: 550px;
-    left: 35%;
+    left: 480px;
 
     /* border: none; */
    
@@ -111,16 +111,33 @@
     padding-top: 25px;
 }
 
-/* ul {
-    list-style: none;
+.product-list {
+    margin-top: 100px;
+    margin-left: 230px;
+   
 }
 
-li {
-    float: left;
+.product-list img {
+    margin-right: 30px;
 }
 
-.list {
+.product-list a{
+    display: block;
+    position: relative;
+}
+
+.product-list p {
     position: absolute;
-    left: 50%;
-    top: 650px;
-} */
+    text-align: center;
+
+}
+
+.product-list li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    justify-content: center;
+}
+
+
+
