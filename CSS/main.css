@@ -1,21 +1,61 @@
 .main-nav {
-    margin-left: 17%;
     display: flex;
-  
+    justify-content: center;
+    color: rgb(41, 41, 41);
 }
 
 
 .main-nav div {
-    
-    /* margin-left: 30px; */
-    background: lightgray;
+    /* background: lightgray; */
+    font-size: small;
     margin-left: 10px;
+    padding-top: 6px;
     text-align: center;
+    font-weight: bold;
+
 }
 
+/* .menu {
+  margin-left: 10px;
+  display: flex;  
+  justify-content: center;
+} */
+
+.main-nav img {
+    margin-right: 15px;
+}
+
+.main-nav button {
+    margin-right: 5px;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+.main-nav button>img {
+    width: 15px;
+    margin: 0;
+    color: white;
+}
+
+.login-button {
+    background: rgb(56, 130, 199);
+    color: white;
+}
+
+.certify-button {
+    background: lightgray;
+}
 /* .main-nav button {
     position: relative;
     left: 30px;
     top: -10px;
 } */
+
+.main-img {
+    background: rgb(193, 219, 248);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
