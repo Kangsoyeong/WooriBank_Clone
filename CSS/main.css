@@ -64,8 +64,8 @@
     position: absolute;
     display: flex;
     top: 550px;
-    left: 35%;
-    
+    left: 480px;
+
     /* border: none; */
    
 
@@ -73,7 +73,7 @@
 
 .fast-menu div {
     align-items: center;
-    font-size: large;
+    font-size: 20px;
     
     /* box-shadow: 5px 5px 5px 5px lightgray; */
     font-weight: bold;
@@ -85,9 +85,9 @@
     background: rgb(48, 95, 138);
     color: white;
     border-radius: 40px;
-    margin-right: -45px;
-    padding-right: 70px;
-    padding-left: 30px;
+    margin-right: -35px;
+    padding-right: 80px;
+    padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -98,7 +98,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 25px;
-    background: rgb(56, 130, 199);
+    background: rgb(74, 148, 218);
     color: white;
 }
 
@@ -107,6 +107,37 @@
     border-radius: 40px;
     margin-left: -45px;
     padding-left: 70px;
-    padding-right: 30px;
+    padding-right: 60px;
     padding-top: 25px;
 }
+
+.product-list {
+    margin-top: 100px;
+    margin-left: 230px;
+   
+}
+
+.product-list img {
+    margin-right: 30px;
+}
+
+.product-list a{
+    display: block;
+    position: relative;
+}
+
+.product-list p {
+    position: absolute;
+    text-align: center;
+
+}
+
+.product-list li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    justify-content: center;
+}
+
+
+
