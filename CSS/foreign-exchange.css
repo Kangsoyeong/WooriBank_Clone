@@ -25,7 +25,6 @@ p {
    margin-top: -3px;
 }
 
-
 .login-btn {
     background: rgb(104, 104, 104);
     color: white;
@@ -56,16 +55,31 @@ p {
     background: transparent;
     border: none;
     border-bottom: 1px solid #a0a0a0;
-    width: 120px;
+    width: 130px;
     box-sizing: border-box;
     height: 26px;
     display: flex;
     outline: none;
-    
 }
 
 .input i {
   position: relative;
-  left: 100px;
+  left: 115px;
   top: -25px;
+}
+
+.navbar-bottom {
+    width: 950px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar-bottom div {
+    background-color: rgb(66, 172, 175);
+    color: white;
+    font-weight: bold;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
