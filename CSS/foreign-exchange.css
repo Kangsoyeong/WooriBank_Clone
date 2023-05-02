@@ -1,0 +1,71 @@
+p {
+    padding: 0;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar-top {
+    display: flex;
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 950px;
+    height: 45px;
+}
+
+.navbar-top div, button, img, a{
+    margin-right: 5px;
+}
+
+.woori-logo {
+   width: 31px;
+   margin-top: -3px;
+}
+
+
+.login-btn {
+    background: rgb(104, 104, 104);
+    color: white;
+    width: 55px;
+    height: 21px;
+    border-radius: 5px;
+    border: none;
+    font-size: 11px;
+    
+}
+
+.main-logo {
+    width: 90px;
+    height: 24px;
+}
+
+.center-font {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.side-wrap {
+    margin-left: 200px;
+    display: flex;
+}
+
+.input input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #a0a0a0;
+    width: 120px;
+    box-sizing: border-box;
+    height: 26px;
+    display: flex;
+    outline: none;
+    
+}
+
+.input i {
+  position: relative;
+  left: 100px;
+  top: -25px;
+}
