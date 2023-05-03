@@ -1,11 +1,12 @@
 p {
-    padding: 0;
+    margin: 0;
+    line-height: 100%;
 }
 
 .bg {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(245, 245, 245);
+    /* background-color: rgb(245, 245, 245); */
 }
 
 .navbar-top {
@@ -78,8 +79,29 @@ p {
     background-color: rgb(66, 172, 175);
     color: white;
     font-weight: bold;
-    padding-left: 29px;
-    padding-right: 29px;
+    padding-left: 30.62px;
+    padding-right: 30.62px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.navbar-end {
+    display: flex;
+    width: 950px;
+    height: 40px;
+    margin: 0 auto;
+    background: rgb(233, 233, 233);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px -4px darkgray;
+    box-sizing: border-box;
+}
+
+.navbar-end p, i {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.navbar-end p {
+    font-size: 13px;
+    font-weight: lighter;
 }
