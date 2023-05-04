@@ -161,3 +161,12 @@ ul, li {
 }
 
 
+.middle-wrap {
+    width: 930px;
+    height: 600px;
+    background: rgb(236, 236, 236);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
