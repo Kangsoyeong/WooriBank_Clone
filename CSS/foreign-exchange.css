@@ -1,4 +1,4 @@
-p {
+p, h1, h2, h3, h4 {
     margin: 0;
     line-height: 100%;
 }
@@ -162,11 +162,37 @@ ul, li {
 
 
 .middle-wrap {
-    width: 930px;
-    height: 600px;
+    width: 940px;
+    height: 620px;
     background: rgb(236, 236, 236);
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 }
+
+.left-area {
+    width: 700px;
+    background: #EEEEEE;
+}
+
+.left-area-top, .left-area-bottom {
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.internet-exchange {
+    width: 500px;
+    height: 294px;
+}
+
+.internet-exchange img{
+    margin-left: 10px;
+}
+
+.right-area {
+    width: 230px;
+    background: lightgreen;
+}
+
