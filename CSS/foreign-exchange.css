@@ -7,6 +7,10 @@ button:hover {
     cursor: pointer;
 }
 
+ul, li {
+    list-style: none;
+}
+
 .bg {
     width: 100vw;
     height: 100vh;
@@ -107,7 +111,7 @@ button:hover {
 
 .navbar-end p {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: lighter;
     margin-left: 8px;
     margin-top: 13px;
 }
@@ -118,10 +122,42 @@ button:hover {
 }
 
 .side-btn button {
-    outline: 1px solid lightgray;
+    outline: 1.5px solid lightgray;
     border: none;
     background: white;
     border-radius: 3px;
+}
+
+.list-wrap {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.list-wrap ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-wrap li {
+    float: left;
+}
+
+.list-wrap em {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+
+.list-wrap li, a, em {
+    display: block;
+}
+
+.list-wrap img {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 
