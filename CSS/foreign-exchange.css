@@ -181,6 +181,14 @@ ul, li {
     display: flex;
 }
 
+.exchange-care {
+    margin-left: 5px
+}
+
+.abroad {
+    width: 495px;
+    margin-left: 5px;
+}
 
 .internet-exchange {
     width: 500px;
@@ -197,13 +205,37 @@ ul, li {
 }
 
 .now-exchange {
-    background: lightgray;
-
+    background: darkgray;
+    margin-top: 10px;
+    margin-left: 7px;
+    width: 220px;
+    height: 30px;
 }
 
-.right-bg {
-    background: white;
-    width: 230px;
-    height: 180px;
+.now-exchange p {
+    padding-top: 8px;
+    padding-left: 10px;
+}
 
+.right-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.exchange-rate img{
+    padding-top: 10px;
+    margin-left: 12px;
+    width: 215px;
+}
+
+.calculator img{
+    width: 215px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.partnership img {
+    width: 215px;
+    margin-left: 12px;
+    margin-top: 3px;
 }
