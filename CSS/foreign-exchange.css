@@ -193,6 +193,17 @@ ul, li {
 
 .right-area {
     width: 230px;
-    background: lightgreen;
+    background: #EEEEEE;
 }
 
+.now-exchange {
+    background: lightgray;
+
+}
+
+.right-bg {
+    background: white;
+    width: 230px;
+    height: 180px;
+
+}
